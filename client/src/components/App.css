@@ -1,0 +1,202 @@
+.App {
+  text-align: center;
+}
+body{
+  margin: 0;
+  padding: 0;
+  
+  
+}
+.background{
+  margin-top:2px;
+  margin-left: 2px;
+  background:url(https://w0.peakpx.com/wallpaper/251/299/HD-wallpaper-white-triangle-texture-background-elegant-luxury-pattern-premium.jpg);
+  height:50vh;
+  background-size: cover;
+  clip-path: polygon(0 0,100% 0,20% 40%,0 80%);
+}
+.logo{
+  padding-top:20px;
+  margin-left:20px;
+
+}
+.clg_name{
+    margin-top:-10px;
+    padding-left: 10px;
+}
+.full{
+  margin-top:-170px;
+  margin-left:200px;
+}
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  
+
+
+}
+
+.home-lr{
+  color:black;
+  text-align:right;
+  margin-top: -300px;
+  margin-right: 10px;
+}
+.image1{
+  height:100vh;
+  width: 33%;
+  float:left;
+
+}
+.image2{
+  height:100vh;
+  width: 33%;
+  float:left;
+
+}
+.image3{
+  height:100vh;
+  width: 33%;
+  float:right;
+
+}
+
+
+
+.each-slide-effect > div {
+  max-width: 75%;;
+  display: flex;
+  margin-left: 200px;;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 550px;
+  margin-bottom: 20px;
+}
+
+/* .each-slide-effect span {
+  padding: 10px;
+  font-size: 20px;
+  background: #efefef;
+  text-align:center;
+ 
+} */
+.main-footer {
+  color: white;
+  background-color: 	#606060;
+  padding-top: 3em;
+  position: relative;
+  bottom: 0;
+ 
+  width: 100%;
+}
+.site-footer {
+  background-color:	#606060;
+	text-align: center;
+	/* margin: 10px 0; */
+	padding: 10px 0;
+}
+
+#social-wrapper {
+	text-align:center;
+}
+
+/*Social Media Icons*/
+.social-wrapper {
+	text-align: center;
+}
+
+.social-wrapper ul li {
+	display: flex;
+	margin: 0 5px;
+  float:right
+}
+
+.twitter-icon,
+.facebook-icon,
+.instagram-icon,
+.linkedin-icon,
+.googleplus-icon,
+.youtube-icon,
+.foursquare-icon{
+	/* margin-top:25px; */
+  /* padding-bottom:20px; */
+	width: 40px;
+	height: 40px;
+	opacity: .6;
+	filter: alpha(opacity=60); /* For IE8 and earlier */
+  border-radius: 25px;
+}
+
+.twitter-icon:hover,
+.facebook-icon:hover,
+.instagram-icon:hover,
+.linkedin-icon:hover,
+.googleplus-icon:hover,
+.youtube-icon:hover,
+.foursquare-icon:hover {
+	opacity: 1.0;
+	filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.footer-nav p {
+  color: white;
+	text-align: left;
+  padding-left: 20px;
+}
+
+.log{
+  margin-top: -20px;
+  height: 110vh;
+  padding-top: 100px;
+  background: #bdc3c7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1e1d1d, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #242323, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.person {
+  text-align: center;
+  margin: 100px;
+}
+
+.per {
+  font-size: 50px;
+  font-style: italic;
+  color: white;
+  margin: 100px;
+}
+
+.form{
+  background-color: white;
+  border-radius: 5px;
+  width: 550px;
+  margin: 20px auto;
+  padding: 20px;
+  
+  /* height: 600px; */
+}
+
+.form-body{
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.form-body > *{
+  padding: 5px;
+}
+
+.form__label{
+  width: 100%;
+}
+
+.form_input{
+  width: 100%;
+}
+
+.footer{
+  text-align: center;
+}
